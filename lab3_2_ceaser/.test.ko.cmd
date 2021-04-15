@@ -1,0 +1,1 @@
+cmd_/home/driver/Desktop/Lab/lab3_2_ceaser/test.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/driver/Desktop/Lab/lab3_2_ceaser/test.ko /home/driver/Desktop/Lab/lab3_2_ceaser/test.o /home/driver/Desktop/Lab/lab3_2_ceaser/test.mod.o;  true
